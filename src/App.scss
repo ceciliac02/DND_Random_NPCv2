@@ -1,0 +1,60 @@
+$colorOne: rgb(233, 190, 96);
+$colorTwo: rgb(4, 68, 47);
+$containerColor: rgba(255, 255, 255, 0.089);
+$boxShadow: 0px 0px 30px $colorTwo;
+$boxBorder: 10px;
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    height: 100vh;
+    background: linear-gradient($colorOne, $colorTwo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header {
+        margin-bottom: 30px;
+        background-color: $containerColor;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        box-shadow: $boxShadow;
+        border-radius: $boxBorder;
+    }
+    .btn {
+        background-color: $containerColor;
+        padding: 20px;
+        font-size: 30px;
+        margin-top: 30px;
+        border-radius: $boxBorder;
+        box-shadow: $boxShadow;
+    }
+}
+
+.container {
+    width: 50%;
+    height: 70%;
+    background-color: $containerColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: $boxShadow;
+    border-radius: $boxBorder;
+    li {
+        background-color: rgba(255, 255, 255, 0.089);
+        padding: 10px;
+        display: flex;
+        margin: 10px 0px 10px 10px;
+        justify-content: space-around;
+        width: 30%;
+        font-size: 25px;
+        text-align: center;
+        border-radius: $boxBorder;
+    }
+}
