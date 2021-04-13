@@ -1,5 +1,7 @@
 import React from 'react';
 import FetchRaces from './Races.js';
+import SetGender from './Gender.js';
+import SetHeight from './Height.js';
 
 function MainBox() {
     return (
@@ -10,9 +12,11 @@ function MainBox() {
             </div>
             <div className="row">
                 <div className="label">Gender</div>
+                <SetGender />
             </div>
             <div className="row">
                 <div className="label">Height</div>
+                <SetHeight />
             </div>
             <div className="row">
                 <div className="label">Skin/Scale Color</div>
