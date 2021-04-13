@@ -64,18 +64,28 @@
   border-radius: 10px;
 }
 
-.container li {
-  background-color: rgba(255, 255, 255, 0.089);
-  padding: 10px;
+.container .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px 0px 10px 10px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.container .row .label {
+  background-color: rgba(255, 255, 255, 0.089);
+  padding: 10px;
+  margin: 5px 0px 5px 10px;
+  width: 40%;
   font-size: 25px;
   text-align: center;
   border-radius: 10px;
+}
+
+.container .row .race {
+  margin: 0px 40px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=App.css.map */

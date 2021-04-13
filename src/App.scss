@@ -46,15 +46,24 @@ $boxBorder: 10px;
     justify-content: space-evenly;
     box-shadow: $boxShadow;
     border-radius: $boxBorder;
-    li {
-        background-color: rgba(255, 255, 255, 0.089);
-        padding: 10px;
+    .row {
         display: flex;
-        margin: 10px 0px 10px 10px;
-        justify-content: space-around;
-        width: 30%;
-        font-size: 25px;
+        align-items: center;
         text-align: center;
-        border-radius: $boxBorder;
+        .label {
+            background-color: rgba(255, 255, 255, 0.089);
+            padding: 10px;
+            margin: 5px 0px 5px 10px;
+            width: 40%;
+            font-size: 25px;
+            text-align: center;
+            border-radius: $boxBorder;
+        }
+        .race {
+            margin: 0px 40px;
+            font-size: 20px;
+        }
+
     }
+    
 }
