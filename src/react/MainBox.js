@@ -22,7 +22,7 @@ function MainBox() {
                 <SetHeight />
             </div>
             <div className="row">
-                <div className="label">Skin/Scale Color</div>
+                <div className="label">Body</div>
                 <BodyType />
             </div>
             <div className="row">

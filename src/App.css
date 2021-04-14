@@ -71,14 +71,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
 }
 
 .container .row .label {
   background-color: rgba(255, 255, 255, 0.089);
   padding: 10px;
   margin: 5px 0px 5px 10px;
-  width: 40%;
+  width: 30%;
   font-size: 25px;
   text-align: center;
   border-radius: 10px;
