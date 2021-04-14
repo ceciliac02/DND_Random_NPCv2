@@ -1,14 +1,17 @@
 import React from 'react';
+import {FetchInfo} from './IndexNumber.js';
 import FetchRaces from './Races.js';
 import SetGender from './Gender.js';
 import SetHeight from './Height.js';
+import BodyType from './Body.js';
 
 function MainBox() {
     return (
-        <div className="container">
-            <div className="row">
+        <FetchInfo>
+            <div className="container">
+           <div className="row">
                 <div className="label">Race</div>
-                <FetchRaces />
+                <FetchRaces/>
             </div>
             <div className="row">
                 <div className="label">Gender</div>
@@ -20,6 +23,7 @@ function MainBox() {
             </div>
             <div className="row">
                 <div className="label">Skin/Scale Color</div>
+                <BodyType />
             </div>
             <div className="row">
                 <div className="label">Hair</div>
@@ -40,6 +44,7 @@ function MainBox() {
                 <div className="label">Profession</div>
             </div>
         </div>
+        </FetchInfo>
     )
 }
 

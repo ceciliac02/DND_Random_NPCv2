@@ -1,16 +1,12 @@
+import React, {useContext} from 'react';
 import Data from '../races.json';
-
-function randomNumber (races) {
-    let number = Math.floor(Math.random() * races);
-    return number;
-}
+import {IndexContext} from './IndexNumber.js';
 
 function FetchRaces () {
-
     let data = Data;
-    let randNum = randomNumber(data.length);
-    let chosenRace = data[randNum].name;
-    console.log(Data);
+    const index = useContext(IndexContext);
+    let chosenRace = data[index].name;
+    console.log(chosenRace + " race");
     return (
         <div className="field">
             <p>{chosenRace}</p>
