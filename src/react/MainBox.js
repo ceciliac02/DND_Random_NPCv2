@@ -3,7 +3,7 @@ import {FetchInfo} from './IndexNumber.js';
 import FetchRaces from './Races.js';
 import SetGender from './Gender.js';
 import SetHeight from './Height.js';
-import BodyType from './Body.js';
+import SetHair from './Hair.js'
 
 function MainBox() {
     return (
@@ -22,11 +22,8 @@ function MainBox() {
                 <SetHeight />
             </div>
             <div className="row">
-                <div className="label">Body</div>
-                <BodyType />
-            </div>
-            <div className="row">
                 <div className="label">Hair</div>
+                <SetHair />
             </div>
             <div className="row">
                 <div className="label">Trait</div>

@@ -2,73 +2,61 @@
     {
         "id": 0,
         "name": "Aarakocra",
-        "body": "feathers",
         "hair": null
     },
     {
         "id": 1,
         "name": "Aasimar",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 2,
         "name": "Bugbear",
-        "body": "fur",
-        "hair": null
+        "hair": false
     },
     {
         "id": 3,
         "name": "Centaur",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 4,
         "name": "Changeling",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 5,
         "name": "Dragonborn",
-        "body": "scales",
-        "hair": null
+        "hair": false
     },
     {
         "id": 6,
         "name": "Dwarf",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 7,
         "name": "Elf",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 8,
         "name": "Firbolg",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 9,
         "name": "Genasi",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 10,
         "name": "Gith",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     },
     {
         "id": 11,
         "name": "Gnome",
-        "body": "skin",
-        "hair": "hair"
+        "hair": true
     }
 ]
