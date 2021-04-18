@@ -1,8 +1,15 @@
-$colorOne: rgb(233, 190, 96);
-$colorTwo: rgb(4, 68, 47);
+
+$colorOne: #ff5e62;
+$colorTwo: rgb(97, 0, 53);
 $containerColor: rgba(255, 255, 255, 0.089);
 $boxShadow: 0px 0px 30px $colorTwo;
 $boxBorder: 10px;
+
+:export {
+    colorOne: $colorOne;
+    colorTwo: $colorTwo;
+    boxShadow: $boxShadow;
+}
 
 * {
     margin: 0;
