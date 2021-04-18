@@ -1,0 +1,13 @@
+import React from 'react';
+
+function SetProfession() {
+    const professions = ["animal handler", "beekeeper", "farmer", "falconer", "fisher", "forager", "hunter", "horse trainer", "miller", "ranger", "shepherd", "stablehand", "trapper", "woodcutter", "zookeeper", "architect", "acrobat", "carpenter", "stonemason", "actor", "chef", "dancer", "glasspainter", "minstrel", "musician", "painter", "playwright", "poet", "sculptor", "singer", "tattooist", "banker", "brothel owner", "shopkeep", "collector", "guild master", "innkeeper", "peddler", "tradesman", "courier", "herald", "linguist", "messenger", "town crier", "translator", "armorer", "blacksmith", "bookbinder", "bowyer", "brewer", "candlemaker", "cartwright", "engraver", "fletcher", "furniture artisan", "glassmaker", "goldsmith", "hatter", "jeweler", "leatherworker", "locksmith", "tailor", "taxidermist", "tinker", "toymaker", "woodcarver", "assassin", "bandit", "burglar", "cutpurse", "crime boss", "kidnapper", "loan shark", "outlaw", "pirate", "poacher", "smuggler", "thief", "apprentice", "archaeologist", "archivist", "astrologer", "botanist", "cartographer", "chemist", "historian", "librarian", "mathematician", "professor", "scholar", "theologian", "aristocrat", "courtier", "diplomat", "duke/duchess", "baron/baroness", "diplomat", "emperor/empress", "judge", "king/queen", "knight", "noble", "orator", "prince/princess", "steward", "squire", "tax collector", "ward", "alchemist", "apothecary", "doctor", "healer", "midwife", "mortician", "nurse", "surgeon", "veterinarian", "baker", "barkeep", "barmaid", "butcher", "cook", "distiller", "florist", "gardener", "gravedigger", "housemaid", "laborer", "maid/butler", "miner", "sex-worker", "slave", "tavern worker", "vermin catcher", "mage", "necromancer" , "sage", "oracle", "witch", "bodyguard", "bailiff", "captain", "city watch", "investigator", "executioner", "guard", "mercenary", "sentinel", "scout", "soldier", "spy", "tactician", "warden", "acolyte", "archbishop", "bishop", "clergy", "cultist", "cult leader", "priest", "pope", "inqusitor", "missionary", "monk", "prophet", "boatman", "caravaneer", "ferrymen", "sailor", "sea captain", "shipwright", "adventurer", "beggar", "bounty hunter", "deserter", "disgraced noble", "elder", "exile", "traveler", "gambler", "hermit", "housewife/househusband", "pilgrim", "refugee", "urchin", "squatter"];
+    const randomNumber = Math.floor(Math.random() * professions.length);
+    return (
+        <div className="field">
+            <p>{professions[randomNumber]}</p>
+        </div>
+    )
+}
+
+export default SetProfession;

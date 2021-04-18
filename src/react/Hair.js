@@ -10,6 +10,9 @@ function SetHair () {
     if (data[index].hair === true) {
         hairColor = Colors();
     }
+    else {
+        hairColor = "fur? feathers? scales? not hair!";
+    }
     console.log(Colors());
     return (
         <div className="field">

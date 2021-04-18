@@ -5,7 +5,12 @@ import {FetchInfo} from './IndexNumber.js';
 import FetchRaces from './Races.js';
 import SetGender from './Gender.js';
 import SetHeight from './Height.js';
-import SetHair from './Hair.js'
+import SetHair from './Hair.js';
+import SetTraits from './Traits.js';
+import SetQuirks from './Quirks.js';
+import SetHobby from './Hobby.js';
+import SetAttitude from './Attitudes.js';
+import SetProfession from './Professions.js';
 
 export function SetGradient() {
   let setGradient = Gradients();
@@ -22,15 +27,6 @@ class App extends Component {
           shadow: `0px 0px 30px ${setGradient[1]}`
       }
   }
-
-  
-
-  whenLoad = (e) => {
-      this.setState({
-          colorOne: "red"
-      })
-  }
-  
   render () {
       return (
           <div className="background" style={{background: `linear-gradient(${this.state.gradient})`}}>
@@ -55,18 +51,23 @@ class App extends Component {
                   </div>
                   <div className="row">
                       <div className="label">Trait</div>
+                      <SetTraits />
                   </div>
                   <div className="row">
                       <div className="label">Quirk</div>
+                      <SetQuirks />
                   </div>
                   <div className="row">
                       <div className="label">Hobby</div>
+                      <SetHobby />
                   </div>
                   <div className="row">
                       <div className="label">Attitude Toward PC</div>
+                      <SetAttitude />
                   </div>
                   <div className="row">
                       <div className="label">Profession</div>
+                      <SetProfession />
                   </div>
               </div>
             </FetchInfo>

@@ -52,7 +52,7 @@
 }
 
 .container {
-  width: 50%;
+  width: 35%;
   height: 70%;
   background-color: rgba(255, 255, 255, 0.089);
   display: -webkit-box;
@@ -83,7 +83,7 @@
   background-color: rgba(255, 255, 255, 0.089);
   padding: 10px;
   margin: 5px 0px 5px 10px;
-  width: 30%;
+  width: 40%;
   font-size: 25px;
   text-align: center;
   border-radius: 10px;
@@ -92,5 +92,6 @@
 .container .row .field {
   margin: 0px 40px;
   font-size: 20px;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=App.css.map */
