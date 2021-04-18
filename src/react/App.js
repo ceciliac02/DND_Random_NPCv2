@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import {Gradients} from './Colors.js';
+import Labels from './Labels.js';
 import {FetchInfo} from './IndexNumber.js';
 import FetchRaces from './Races.js';
 import SetGender from './Gender.js';
@@ -12,7 +13,7 @@ import SetHobby from './Hobby.js';
 import SetAttitude from './Attitudes.js';
 import SetProfession from './Professions.js';
 
-export function SetGradient() {
+function SetGradient() {
   let setGradient = Gradients();
   return setGradient;
 }

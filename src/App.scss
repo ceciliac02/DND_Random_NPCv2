@@ -2,14 +2,9 @@
 $colorOne: #ff5e62;
 $colorTwo: rgb(97, 0, 53);
 $containerColor: rgba(255, 255, 255, 0.089);
+$contiainerHighlight: rgba(255, 255, 255, 0.3);
 $boxShadow: 0px 0px 30px $colorTwo;
 $boxBorder: 10px;
-
-:export {
-    colorOne: $colorOne;
-    colorTwo: $colorTwo;
-    boxShadow: $boxShadow;
-}
 
 * {
     margin: 0;
@@ -41,6 +36,10 @@ $boxBorder: 10px;
         margin-top: 30px;
         border-radius: $boxBorder;
         box-shadow: $boxShadow;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: $contiainerHighlight;
     }
 }
 
@@ -64,6 +63,10 @@ $boxBorder: 10px;
             font-size: 25px;
             text-align: center;
             border-radius: $boxBorder;
+        }
+        .label:hover {
+            background-color: $contiainerHighlight;
+            cursor: pointer;
         }
         .field {
             margin: 0px 40px;
