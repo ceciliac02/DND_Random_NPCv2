@@ -48,7 +48,8 @@ export function Gradients() {
         case 12:
             gradient = ["#49a09d", "#5f2c82"];
             break;
-
+        default:
+            break;
     }
 
     return gradient;
