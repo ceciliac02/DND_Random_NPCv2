@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import Data from '../races.json';
-import {IndexContent, IndexContext} from './IndexNumber.js';
+import {IndexContext} from './IndexNumber.js';
 import Colors from './Colors.js';
 
 function SetHair () {

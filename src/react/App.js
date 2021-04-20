@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
 import {Gradients} from './Colors.js';
-import Labels from './Labels.js';
 import {FetchInfo} from './IndexNumber.js';
 import FetchRaces from './Races.js';
 import SetGender from './Gender.js';

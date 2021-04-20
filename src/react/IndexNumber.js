@@ -1,6 +1,5 @@
 import React, {createContext} from 'react';
 import Data from '../races.json';
-import FetchRaces from './Races.js';
 
 export const IndexContext = createContext();
 
