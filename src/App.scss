@@ -37,6 +37,7 @@ $boxBorder: 10px;
         border-radius: $boxBorder;
         box-shadow: $boxShadow;
         cursor: pointer;
+        transition: background-color 0.3s;
     }
     .btn:hover{
         background-color: $contiainerHighlight;
@@ -63,6 +64,7 @@ $boxBorder: 10px;
             font-size: 25px;
             text-align: center;
             border-radius: $boxBorder;
+            transition: background-color 0.3s;
         }
         .label:hover {
             background-color: $contiainerHighlight;

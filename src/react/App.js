@@ -71,7 +71,7 @@ class App extends Component {
                   </div>
               </div>
             </FetchInfo>
-            <div className="btn" style={{boxShadow: this.state.shadow}}>Randomize</div>
+            <div className="btn" onClick={() => window.location.reload(false)} style={{boxShadow: this.state.shadow}} >Randomize</div>
           </div>
       )
   }
