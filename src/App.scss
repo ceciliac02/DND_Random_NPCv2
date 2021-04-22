@@ -19,7 +19,42 @@ $boxBorder: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
+    .container {
+        width: 70%;
+        height: 70%;
+        background-color: $containerColor;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: $boxShadow;
+        border-radius: $boxBorder;
+        .row {
+            display: flex;
+            align-items: center;
+            .label {
+                background-color: rgba(255, 255, 255, 0.089);
+                padding: 10px;
+                margin: 5px 0px 5px 10px;
+                width: 40%;
+                font-size: 25px;
+                text-align: center;
+                border-radius: $boxBorder;
+                transition: background-color 0.3s;
+            }
+            .label:hover {
+                background-color: $contiainerHighlight;
+                cursor: pointer;
+            }
+            .field {
+                margin: 0px 40px;
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+
+        }
+        
+    }
     .header {
         margin-bottom: 30px;
         background-color: $containerColor;
@@ -42,40 +77,4 @@ $boxBorder: 10px;
     .btn:hover{
         background-color: $contiainerHighlight;
     }
-}
-
-.container {
-    width: 35%;
-    height: 70%;
-    background-color: $containerColor;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    box-shadow: $boxShadow;
-    border-radius: $boxBorder;
-    .row {
-        display: flex;
-        align-items: center;
-        .label {
-            background-color: rgba(255, 255, 255, 0.089);
-            padding: 10px;
-            margin: 5px 0px 5px 10px;
-            width: 40%;
-            font-size: 25px;
-            text-align: center;
-            border-radius: $boxBorder;
-            transition: background-color 0.3s;
-        }
-        .label:hover {
-            background-color: $contiainerHighlight;
-            cursor: pointer;
-        }
-        .field {
-            margin: 0px 40px;
-            font-size: 20px;
-            text-transform: capitalize;
-        }
-
-    }
-    
 }
