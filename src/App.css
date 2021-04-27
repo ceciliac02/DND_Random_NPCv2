@@ -25,7 +25,7 @@
 }
 
 .background .container {
-  width: 70%;
+  width: 700px;
   height: 70%;
   background-color: rgba(255, 255, 255, 0.089);
   display: -webkit-box;
@@ -62,11 +62,6 @@
   border-radius: 10px;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
-}
-
-.background .container .row .label:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  cursor: pointer;
 }
 
 .background .container .row .field {

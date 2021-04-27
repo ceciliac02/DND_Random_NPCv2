@@ -27,6 +27,8 @@ class App extends Component {
           shadow: `0px 0px 30px ${setGradient[1]}`
       }
   }
+
+
   render () {
       return (
           <div className="background" style={{background: `linear-gradient(${this.state.gradient})`}}>

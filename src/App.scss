@@ -21,7 +21,7 @@ $boxBorder: 10px;
     justify-content: center;
     align-items: center;   
     .container {
-        width: 70%;
+        width: 700px;
         height: 70%;
         background-color: $containerColor;
         display: flex;
@@ -41,10 +41,6 @@ $boxBorder: 10px;
                 text-align: center;
                 border-radius: $boxBorder;
                 transition: background-color 0.3s;
-            }
-            .label:hover {
-                background-color: $contiainerHighlight;
-                cursor: pointer;
             }
             .field {
                 margin: 0px 40px;
